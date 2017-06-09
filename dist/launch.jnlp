@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Enigma</title>
+        <vendor>ABHISHEK</vendor>
+        <homepage href=""/>
+        <description>Enigma</description>
+        <description kind="short">Enigma</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="Enigma.jar" main="true"/>
+    <jar href="lib/beansbinding-1.2.1.jar"/>
+</resources>
+    <application-desc main-class="enigma.Enigma">
+    </application-desc>
+</jnlp>
